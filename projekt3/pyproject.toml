@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "projekt3"
+version = "0.1.0"
+description = ""
+authors = ["Jan Kośnic"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^2.2.1"
+matplotlib = "^3.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
